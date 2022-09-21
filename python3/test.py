@@ -3,6 +3,9 @@ import threading
 from plantuml import PlantUML
 import time
 
+def test():
+    print('test')
+
 class NvimPlantUML:
     def __init__(self, path, out_path):
         #thread = threading.Thread(target=self.callback)

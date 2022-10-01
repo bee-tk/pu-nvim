@@ -4,8 +4,8 @@ set cpo&vim
 py3file <sfile>:h:h/python3/test.py
 python3 import vim
 
-function! passgen#passgen(size)
-  python3 vim.command("call setline('.', '%s')" % test(vim.eval('a:size')))
+function! test#test()
+  python3 test()
 endfunction
 
 let &cpo = s:save_cpo
